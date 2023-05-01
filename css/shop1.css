@@ -1,0 +1,274 @@
+
+.menu{
+    background: #312f2f;
+    height: 76px;
+    margin-top: 1px;
+    display: flex;
+  }
+  .home{
+    width: 50%;
+    margin-top: 23px;
+}
+
+.home1{
+    width: 32%;
+    color: white;
+    font-size: 36px;
+    opacity: 0.6;
+    margin-top: 17px;
+}
+.home1 h4{
+    font-size: 30px;
+}
+.home2{
+    width: 19%;
+    margin-top: 17px;
+}
+
+.home ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.background img{
+    width: 1511px;
+}
+button {
+    padding: 8px 23px;
+    border: unset;
+    border-radius: 46px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    border-radius: 20px;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+    
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+    border-radius: 20px;
+   }
+   
+   button:hover::before {
+    width: 100%;
+    border-radius: 20px;
+   }
+     .card0{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-top: 40px;
+    margin-right: 90px;
+
+}
+    .card{
+        width: 232px;
+        height: 383px;
+        padding: 0.8em;
+        background: #ed1212;
+        position: relative;
+        overflow: visible;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+       }
+   .card-img img{
+    /* height: 240px;
+    width: 192px; */
+    height: 240px;
+    width: 205px;
+   }
+   .card-img {
+    background-color: #ffcaa6;
+    height: 70%;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: .3s ease;
+   }
+   .card-info {
+
+   }
+   svg{
+    width: 20px;
+    height: 20px;
+   }
+   .card-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+    border-top: 1px solid #ddd;
+}
+   .text-body {
+    font-size: .9em;
+   }
+   .text-title{
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 0;
+   }
+   .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: 0.3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+   }
+   .card-button a{
+    color: #000;
+}
+.card-button i{
+  padding: 3px;
+}
+   .card-img:hover{
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   .card-button:hover {
+    border: 1px solid #ffcaa6;
+    background-color: #ffcaa6;
+   }
+   .rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .rating:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+  .rating{
+    margin-top: -20px;
+    padding-right: 58%;
+  }
+  .container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: beige;
+    height: 616px;
+    margin-top: -72px;
+  }
+  .card11 h4 {
+    margin-top: -1%;
+    margin-left: 60px;
+  }
+  .cards{
+    display: flex;
+  }
+
+  .medi{
+    display: flex;
+      justify-content: space-around;
+      margin-top: 12%;
+      text-align: center;
+      margin-bottom: 5%;
+  }
+   .medi p{
+    font-size: 15px;
+  }
+  .medi i{
+    font-size: 35px;
+    color: #FB4B7A;
+  }
+  .skin{
+    position: absolute;
+  }
+  .skin img{
+    width: 100%;
+  }
+  .skincare{
+    position: absolute;
+      text-align: center;
+      width: 100%;
+      margin-top: 24%;
+      color: white;
+  }
+  
+  .footer{
+    background: rgb(213, 213, 3);
+      margin-top: 4%;
+  }
+  .footer0{
+    display: flex;
+      justify-content: space-around;
+  }
+  .footer1{
+    margin-top: 35px;
+  }
+  .footer2{
+    margin-top: 35px;
+  }
+  .footer3{
+    margin-top: 35px;
+  }
+  .footer{
+    list-style-type: none;
+    text-align: center;
+    height: 272px;
+  }
+  .follow{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #FB4B7A;
+    height: 58px;
+  }
+  .follow h6{
+    font-size: 13px;
+  }
+  .follow i{
+    padding-top: 14px;
+  }
